@@ -34,18 +34,16 @@ The script:
 
 
 ## 🧪 Usage Examples
-🔹 Selective Activation
+🔹 **Selective Activation** :  _Prompts you to choose which roles to activate_
 ```
 .\PIM-AutoActivator.ps1 -TenantId "<your-tenant-guid>"
 ```
-   _Prompts you to choose which roles to activate_
 
-🔹 Activate All Eligible Roles
+🔹 **Activate All Eligible Roles** : _Automatically activates all PIM eligible roles assigned to your account._
 
 ```
 .\PIM-AutoActivator.ps1 -TenantId "<your-tenant-guid>" -All
 ```
-  _Automatically activates all PIM eligible roles assigned to your account._
 
  ## 🔐 Scopes Required
 The script connects with the following Microsoft Graph scopes:
