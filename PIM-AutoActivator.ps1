@@ -59,8 +59,11 @@
     https://www.powershellgallery.com/packages/Microsoft.Graph
 #>
 
+[CmdletBinding()]
 param (
     [switch]$All,
+
+    [Parameter(Mandatory = $true)]
     [string]$TenantId
 )
 
