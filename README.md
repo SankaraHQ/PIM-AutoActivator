@@ -53,12 +53,22 @@ The script connects with the following Microsoft Graph scopes:
 - RoleManagement.Read.All
 - RoleEligibilitySchedule.ReadWrite.Directory
 
-
 ## 🔄 Updates
 ```
 17 Apr 2025
         Added the MVP script
 ```
+## Disclaimer
+
+**Important**: *PIM-AutoActivator* automates the activation of all eligible roles for a user in Microsoft Entra PIM. While this can save time, activating roles **that aren't immediately needed**, contradicts the principle of least privilege, potentially increasing your security risk.
+
+This script should be used only with full awareness of the risks, ideally as a last resort in time-sensitive or exception-based scenarios.
+
+In more structured setups, consider using **PIM Role Assignable Groups**, which allow you to activate multiple roles via group membership. This approach works well when users share consistent role combinations. However, for ad-hoc or dynamic needs, where each user may require a different mix of roles, managing such access through groups can become complex and may lead to *group sprawl*.
+
+In such cases, this script may serve as a **practical workaround**—provided it's used judiciously and with a clear understanding of the risks involved.
+
+
 ## 📄 License
 This project is licensed under the [MIT License](LICENSE).
 
